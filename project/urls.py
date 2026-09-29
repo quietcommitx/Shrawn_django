@@ -20,6 +20,7 @@ from first.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('first.urls'))
+    path('',include('first.urls')),
+    path('',include('note.urls'))
     # path('index/',index)
 ]

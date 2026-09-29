@@ -49,7 +49,7 @@ model_name/table_name.objects.all().values()
 
 # add/create data 
 model_name.objects.create(field1="....", field2=".....", field3 = "....", .......)
-Note.objects.create(title="first",content="this is the first note","created_at"=2026-09-28)
+Note.objects.create(title="first",content="this is the first note",created_at=2026-09-28)
 
 # Retrieve: access/get/fetch single data
 a = model_name.objects.get(id = 1)
