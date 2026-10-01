@@ -13,6 +13,8 @@ Notes
             <th scope="col">Title</th>
             <th scope="col">Content</th>
             <th scope="col">Created at</th>
+            <th scope="col">Actions</th>
+
          </tr>
       </thead>
       <tbody>
@@ -23,6 +25,10 @@ Notes
                <td>{{note.title}}</td>
                <td>{{note.content}}</td>
                <td>{{note.created_at}}</td>
+               <td>
+                  <a href={{note.id}}/ type="button" class="btn btn-primary">Edit</a>
+                  <a href=/note/{{note.id}}/delete/ type="button" class="btn btn-danger">Delete</a>
+               </td>
             </tr>
          {% endfor %}
 
