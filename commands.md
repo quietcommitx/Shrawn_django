@@ -65,3 +65,10 @@ a.delete()
 
 # filter
 model_name.objects.filter(title="something", field1 ="...", field3 = "...")
+
+# create/update requirements.txt
+pip freeze > requirements.txt
+
+# install or uninstall requirements file
+pip install -r requirements.txt
+pip uninstall -r requirements.txt

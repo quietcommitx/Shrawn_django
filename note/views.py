@@ -45,3 +45,4 @@ def delete(request, id):
 # create url, view: get all the data from todolist table,
 # create a html page that display all the todolist details
 # implement post request in todolist
+# implement edit, delete request in todolist
